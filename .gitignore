@@ -1,0 +1,118 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+
+
+# ===== Секреты и конфиги =====
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+config_local.py
+secrets.json
+
+# ===== Виртуальные окружения =====
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.python-version
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===== Тесты и кэш =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+*.log
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== Данные проекта =====
+# Входные документы (не коммитим пользовательские PDF/TXT)
+documents/
+docs_input/
+input/
+# Сгенерированные отчёты
+output/
+reports/
+*.report.md
+summary_report.md
+
+# ===== Временные файлы =====
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE / редакторы =====
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.iml
+.project
+.classpath
+.settings/
+
+# ===== Логи =====
+logs/
+*.log
+logging/
+
+# ===== OS =====
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# ===== Прочее =====
+*.pdf
+*.docx
+*.xlsx
+
+
+
+
